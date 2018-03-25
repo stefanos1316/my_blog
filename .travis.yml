@@ -1,0 +1,6 @@
+install:
+- sudo apt-get install npm
+- sudo apt-get npm install bootstrap
+
+script: 
+- gulp
