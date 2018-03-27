@@ -1,6 +1,12 @@
-install:
-- sudo apt-get install npm
-- sudo apt-get npm install bootstrap
+language: node_js
+ - "7"
 
-script: 
-- gulp
+sudo: required
+dist: trusty
+
+before_script:
+  - npm install -g gulp-cli
+
+script:
+  - npm install
+  - bash tools/travis-deploy.sh
