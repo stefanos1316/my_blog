@@ -18,7 +18,8 @@ function doCompile {
     gulp 
 	
      # Build all tex files found in material (travelling, posts, tutorials)
-     make -C material/*/*/
+     make -C material/travelling/spb/
+     make -C material/travelling/perccom/
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
