@@ -1,6 +1,6 @@
 all: perccom
 
-spb: perccom.tex 
+perccom: perccom.tex 
 	pdflatex $<
 
 clean:
