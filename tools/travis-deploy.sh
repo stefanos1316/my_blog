@@ -44,7 +44,8 @@ git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd ..
 
 # Clean build existing contents
-#rm -rf build/**/* || exit 0
+rm -rf materials/travelling/*/*.pdf || exit 0
+rm -rf index.html
 
 # Run our compile script
 doCompile
