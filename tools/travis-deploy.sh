@@ -16,10 +16,12 @@ function doCompile {
     
     # Build web-page first
     gulp 
-	
+
      # Build all tex files found in material (travelling, posts, tutorials)
      make -C material/travelling/spb/
      make -C material/travelling/perccom/
+     mkdir web 
+     mv material/travelling/*/*.pdf web
 }
 
 # Pull requests and commits to other branches shouldn't try to deploy, just build to verify
@@ -44,7 +46,7 @@ git checkout $TARGET_BRANCH || git checkout --orphan $TARGET_BRANCH
 cd ..
 
 # Clean build existing contents
-rm -rf materials/travelling/*/*.pdf || exit 0
+rm -rf web/* || exit 0
 rm -rf index.html
 
 # Run our compile script
