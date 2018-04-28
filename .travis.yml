@@ -8,6 +8,6 @@ before_script:
   - npm install -g gulp-cli
 
 script:
-  - sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended
+  - sudo apt-get install texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended texlive-science
   - npm install
   - bash tools/travis-deploy.sh
