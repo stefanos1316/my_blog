@@ -1,7 +1,6 @@
 #!/bin/bash
 
-for i in `ls media/` 
+for i in `ls tmp/` 
 do
-
-	convert media/$i -resize 50% media/$i
+	convert tmp/$i -resize 50% tmp/$i
 done
