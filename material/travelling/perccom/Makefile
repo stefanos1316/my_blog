@@ -1,7 +1,11 @@
-all: perccom
+all: html pdf
 
-perccom: perccom.tex 
+html:
+	pandoc perccom.tex -o perccom.html --css ../../css/pandoc.css $<
+
+pdf: perccom.tex
 	pdflatex $<
 
 clean:
-	-rm *.aux *.bbl *.blg *.log *.out *.gz perccom.pdf
+	-rm *.aux *.bbl *.blg *.log *.out *.gz perccom.pdf *.html
+
