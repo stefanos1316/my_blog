@@ -1,4 +1,4 @@
-all: html pdf
+all: pdf
 
 html:
 	pandoc greek_islands.tex -o greek_islands.html --css ../../css/pandoc.css $<
