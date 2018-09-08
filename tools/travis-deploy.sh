@@ -20,6 +20,7 @@ function doCompile {
      # Build all tex files found in material (travelling, posts, tutorials)
      make -C material/travelling/spb/
      make -C material/travelling/perccom/
+     make -c material/travelling/greek_islands/
      mkdir web 
      mv material/travelling/*/*.pdf web
 }
