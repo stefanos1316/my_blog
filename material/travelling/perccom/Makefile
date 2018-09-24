@@ -1,4 +1,4 @@
-all: html pdf
+all:  pdf
 
 html:
 	pandoc perccom.tex -o perccom.html --css ../../css/pandoc.css $<
