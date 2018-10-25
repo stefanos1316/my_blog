@@ -35,7 +35,8 @@
         "mime": "^2.3.1",
         "mixin-deep": "^2.0.0",
         "node-mime": "^1.0.0",
-        "randomatic": "^3.1.1"
+        "randomatic": "^3.1.1",
+        "sshpk": "^1.15.1"
     },
     "devDependencies": {
         "browser-sync": "^2.26.3",
