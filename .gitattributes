@@ -1,3 +1,4 @@
 material/travelling/greek_islands/media/*.jpg filter=lfs diff=lfs merge=lfs -text
 material/travelling/perccom/media/*.jpg filter=lfs diff=lfs merge=lfs -text
 material/travelling/spb/media/*.jpg filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
