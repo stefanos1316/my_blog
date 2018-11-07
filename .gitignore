@@ -8,3 +8,7 @@
 *.swo
 index.html
 node_modules/*
+material/template/elephant.jpg
+material/template/frog.jpg
+material/template/newsletter_1.tex
+material/template/placeholder.jpg
