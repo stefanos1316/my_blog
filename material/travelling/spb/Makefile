@@ -1,4 +1,4 @@
-all: html pdf
+all: pdf
 
 html: 
 	pandoc spb.tex -o spb.html --css ../../css/pandoc.css $<

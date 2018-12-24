@@ -1,4 +1,4 @@
-all: html pdf
+all: pdf
 
 html: 
 	pandoc little_long.tex -o little_long.html --css ../../css/pandoc.css $<
