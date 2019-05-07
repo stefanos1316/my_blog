@@ -30,7 +30,7 @@
         "bootstrap": "^4.3.1",
         "font-awesome": "4.7.0",
         "hoek": "^5.0.3",
-        "jquery": "3.3.1",
+        "jquery": "^3.4.1",
         "lodash": "^4.17.11",
         "mime": "^2.3.1",
         "mixin-deep": "^2.0.0",
@@ -38,16 +38,17 @@
         "randomatic": "^3.1.1",
         "sshpk": "^1.15.1",
         "static-eval": "^2.0.2",
+        "tar": "^4.4.8",
         "vendor": "^1.7.0"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.3",
+        "browser-sync": "^2.26.5",
         "gulp": "^3.9.0",
         "gulp-clean-css": "3.9.2",
         "gulp-header": "2.0.1",
         "gulp-rename": "^1.2.2",
         "gulp-sass": "^3.1.0",
         "gulp-uglify": "3.0.0",
-        "node-sass": "^4.11.0"
+        "node-sass": "^4.12.0"
     }
 }
