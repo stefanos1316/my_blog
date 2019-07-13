@@ -30,10 +30,11 @@
         "bootstrap": "^4.3.1",
         "font-awesome": "4.7.0",
         "hoek": "^5.0.3",
-        "jquery": "3.3.1",
-        "lodash": "^4.17.11",
+        "jquery": "^3.4.1",
+        "lodash": "^4.17.14",
+        "lodash.template": "^4.5.0",
         "mime": "^2.3.1",
-        "mixin-deep": "^2.0.0",
+        "mixin-deep": "^2.0.1",
         "node-mime": "^1.0.0",
         "randomatic": "^3.1.1",
         "sshpk": "^1.15.1",
@@ -41,7 +42,7 @@
         "vendor": "^1.7.0"
     },
     "devDependencies": {
-        "browser-sync": "^2.26.3",
+        "browser-sync": "^2.26.7",
         "gulp": "^3.9.0",
         "gulp-clean-css": "3.9.2",
         "gulp-header": "2.0.1",
