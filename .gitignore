@@ -6,7 +6,6 @@
 *.gz
 *.swp
 *.swo
-index.html
 node_modules/*
 material/template/elephant.jpg
 material/template/frog.jpg
